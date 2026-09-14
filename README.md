@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Robotics systems &nbsp;&middot;&nbsp; Applied AI &nbsp;&middot;&nbsp; Product engineering
+  Robotics &nbsp;&middot;&nbsp; Applied AI &nbsp;&middot;&nbsp; Product Engineering
 </p>
 
 <p align="center">
@@ -16,15 +16,15 @@
   <a href="mailto:joaquinrog06@gmail.com">Email</a>
 </p>
 
-I am a Robotics and Digital Systems Engineering student at Tecnológico de Monterrey. I grew up technically inside FIRST Robotics, working across strategy, Java/WPILib, controls, autonomous routines, computer-vision odometry, driving, team leadership, and mentoring.
+Today I build and ship production AI agent systems while studying Robotics and Digital Systems Engineering at Tecnológico de Monterrey. My work sits at the intersection of software, robotics, and product engineering.
 
-Today I work on production AI agent systems and build at the intersection of software, robotics, and product engineering. I care less about making a demo look intelligent than about making the underlying system inspectable, measurable, and dependable.
+My engineering path began in FIRST Robotics, where software meets hardware, drivers, match pressure, and hard deadlines. I care less about making a demo look intelligent than about making the underlying system inspectable, measurable, and dependable.
 
 ## Selected work
 
 ### [Chori: synthetic voice detection](https://github.com/joaquinrog/altur-detect)
 
-Real-time detection of synthetic voices in 8 kHz telephone calls, built for HackMTY 2026. We audited the data before modeling, exposed channel and codec shortcuts, tested robustness under systematic corruption, and kept only features that earned their place through measured evidence.
+Real-time detection of synthetic voices in 8 kHz telephone calls, built for HackMTY 2026 and winner of the Altur track. We audited the data before modeling, exposed channel and codec shortcuts, tested robustness under systematic corruption, and kept only features that earned their place through measured evidence.
 
 `Python` `FastAPI` `PyTorch` `Audio ML` `Model calibration`
 
@@ -36,9 +36,9 @@ A local-first CV system that makes AI show its work. Every rendered bullet is li
 
 ### [FRC 9280 Robot Code: REEFSCAPE 2025](https://github.com/HighAltitude9280/RobotCode_2025)
 
-A competition robot codebase built with High Altitude Robotics 9280 for the 2025 FRC REEFSCAPE season. I was the lead contributor to the Java/WPILib repository while serving as the team's Lead Programmer, Driver, and President.
+The Java/WPILib codebase behind my 2025 season with High Altitude Robotics 9280. As Lead Programmer, Driver, and President, I designed, wrote, and debugged systems spanning swerve control, autonomous path generation, and multi-camera vision. This was before AI coding agents became part of my workflow. The season took us to a top-four result in Mexico, a finalist finish at Midwest Regional in Chicago, and the FIRST Championship.
 
-`Java` `WPILib` `Command-based programming` `Controls` `Autonomy`
+`Java` `WPILib` `Swerve` `PathPlanner` `PhotonVision`
 
 ### [GOM-xArm bridge](https://github.com/joaquinrog/gom-xarm-bridge-mvp)
 
@@ -52,6 +52,13 @@ A mobile-first growth companion for small shop owners, built with team Picafresi
 
 `Next.js` `TypeScript` `Gemini` `Web Speech API` `Product engineering`
 
+## Current work
+
+- **Event Horizon AI:** building and shipping production multi-agent systems with Python, FastAPI, Gemini/Vertex AI, and Google Cloud.
+- **Olympus Robotics:** co-founding a multidisciplinary team and leading systems integration toward the University Rover Challenge.
+- **[JOAQ](https://joaq.mx):** building products for real operations in Mexico, starting with [Opina](https://joaq.mx/opina), an NFC/QR review flow already operating in local businesses.
+- **JoaqOS:** developing a private personal tool that turns financial, health, and training data into concrete daily decisions.
+
 ## How I engineer
 
 - **Deterministic core, AI at the right boundary.** Models explain, classify, or assist; they do not silently invent business truth.
@@ -59,18 +66,9 @@ A mobile-first growth companion for small shop owners, built with team Picafresi
 - **Failure is part of the design.** Fallbacks, validation, observability, and explicit unknowns belong in the first architecture pass.
 - **The deployment environment matters.** A model, robot, or workflow is only useful when it survives its actual channel, hardware, operator, and cost constraints.
 
-## Current work
-
-- Building production multi-agent workflows with Python, FastAPI, Gemini/Vertex AI, and Google Cloud.
-- Co-founding Olympus Robotics and leading systems integration toward the University Rover Challenge.
-- Developing **JoaqOS**, a personal operating system that turns real financial, health, and training data into a small number of honest daily decisions.
-- Building **JOAQ**, a product and AI studio focused on useful software for real operations in Mexico.
-
 ## From robots to products
 
 My FIRST Robotics path spans FLL, FRC, and FTC mentorship. I co-founded High Altitude Robotics 9280, later served as its President, Driver, and Lead Programmer, and was recognized as a **2024 FIRST Dean's List Finalist**.
-
-That background still shapes how I work: instrument the system, understand the constraints, test under pressure, and make the result usable by the people operating it.
 
 ---
 
