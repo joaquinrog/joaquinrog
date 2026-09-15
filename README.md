@@ -22,35 +22,47 @@ My engineering path began in FIRST Robotics, where software meets hardware, driv
 
 ## Selected work
 
+<a href="https://github.com/joaquinrog/altur-detect">
+  <img src="assets/chori-hero.png" width="100%" alt="Chori synthetic voice detection system for the Altur track at HackMTY 2026">
+</a>
+
 ### [Chori: synthetic voice detection](https://github.com/joaquinrog/altur-detect)
 
-Real-time detection of synthetic voices in 8 kHz telephone calls, built for HackMTY 2026 and winner of the Altur track. We audited the data before modeling, exposed channel and codec shortcuts, tested robustness under systematic corruption, and kept only features that earned their place through measured evidence.
+**Winner — Altur track, HackMTY 2026.** Real-time synthetic voice detection for 8 kHz telephone calls, built around robustness, calibration, and evidence-driven feature selection.
 
 `Python` `FastAPI` `PyTorch` `Audio ML` `Model calibration`
 
-### [Elite CV Builder](https://github.com/joaquinrog/elite-cv)
-
-A local-first CV system that makes AI show its work. Every rendered bullet is linked to approved evidence; unsupported or conflicting claims remain visible instead of being polished into false certainty. Builds are deterministic and do not require an external AI API.
-
-`Python` `JSON Schema` `LaTeX` `CLI tooling` `Privacy by design`
-
-### [FRC 9280 Robot Code: REEFSCAPE 2025](https://github.com/HighAltitude9280/RobotCode_2025)
-
-The Java/WPILib codebase behind my 2025 season with High Altitude Robotics 9280. As Lead Programmer, Driver, and President, I designed, wrote, and debugged systems spanning swerve control, autonomous path generation, and multi-camera vision. This was before AI coding agents became part of my workflow. The season took us to a top-four result in Mexico, a finalist finish at Midwest Regional in Chicago, and the FIRST Championship.
-
-`Java` `WPILib` `Swerve` `PathPlanner` `PhotonVision`
-
-### [GOM-xArm bridge](https://github.com/joaquinrog/gom-xarm-bridge-mvp)
-
-A lightweight ROS 1 bridge between a Windows-based GOM Inspect metrology workflow and a Linux-controlled UFactory xArm 5. It turns exported 3D inspection measurements into validated robot movement commands without requiring GOM's licensed scripting API.
-
-`Python` `ROS 1` `TCP/IP` `Industrial robotics` `3D metrology`
-
-### [tuAliado](https://github.com/joaquinrog/hack4her-tuAliado)
-
-A mobile-first growth companion for small shop owners, built with team Picafresitas for Hack4Her. A deterministic engine decides what to recommend; Gemini explains it in plain language. If the model fails, the product still works.
-
-`Next.js` `TypeScript` `Gemini` `Web Speech API` `Product engineering`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/joaquinrog/elite-cv"><img src="assets/elite-cv.png" width="100%" alt="CV bullet connected to its source claim in an Elite CV evidence report"></a>
+      <h3><a href="https://github.com/joaquinrog/elite-cv">Elite CV Builder</a></h3>
+      <p>A local-first CV system that links every rendered bullet to approved evidence while keeping unsupported or conflicting claims visible.</p>
+      <p><code>Python</code> <code>JSON Schema</code> <code>LaTeX</code> <code>Provenance</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/HighAltitude9280/RobotCode_2025"><img src="assets/robotcode-2025.jpg" width="100%" alt="High Altitude Robotics 9280 robot competing during the 2025 REEFSCAPE season"></a>
+      <h3><a href="https://github.com/HighAltitude9280/RobotCode_2025">FRC 9280 — REEFSCAPE 2025</a></h3>
+      <p>Java/WPILib competition code spanning swerve control, autonomous paths, and multi-camera vision. Built as Lead Programmer during a season that ended at the FIRST Championship.</p>
+      <p><em>Built before AI coding agents became part of my workflow.</em></p>
+      <p><code>Java</code> <code>WPILib</code> <code>PathPlanner</code> <code>PhotonVision</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/joaquinrog/gom-xarm-bridge-mvp"><img src="assets/gom-xarm.svg" width="100%" alt="GOM Inspect measurements moving through TCP and JSON into ROS 1 and an xArm 5 robot"></a>
+      <h3><a href="https://github.com/joaquinrog/gom-xarm-bridge-mvp">GOM–xArm bridge</a></h3>
+      <p>A ROS 1 bridge carrying exported GOM Inspect measurements from Windows through validated TCP/JSON commands to a Linux-controlled xArm 5.</p>
+      <p><code>Python</code> <code>ROS 1</code> <code>TCP/IP</code> <code>3D metrology</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/joaquinrog/hack4her-tuAliado"><img src="assets/tualiado.png" width="100%" alt="tuAliado diagnostic and recommendation screens shown side by side"></a>
+      <h3><a href="https://github.com/joaquinrog/hack4her-tuAliado">tuAliado</a></h3>
+      <p>A mobile-first growth companion where a deterministic recommendation engine makes decisions and Gemini explains them, with local fallbacks when the model is unavailable.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Gemini</code> <code>Web Speech API</code></p>
+    </td>
+  </tr>
+</table>
 
 ## Current work
 
