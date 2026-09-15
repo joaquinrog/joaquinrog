@@ -67,7 +67,7 @@ My engineering path began in FIRST Robotics, where software meets hardware, driv
 ## Current work
 
 - **Event Horizon AI:** building and shipping production multi-agent systems with Python, FastAPI, Gemini/Vertex AI, and Google Cloud.
-- **Olympus Robotics:** co-founding a multidisciplinary team and leading systems integration toward the University Rover Challenge.
+- **[Olympus Robotics](https://olympusrobotics.org):** co-founding a multidisciplinary team and leading systems integration toward the 2027 University Rover Challenge.
 - **[JOAQ](https://joaq.mx):** building products for real operations in Mexico, starting with [Opina](https://joaq.mx/opina), an NFC/QR review flow already operating in local businesses.
 - **JoaqOS:** developing a private personal tool that turns financial, health, and training data into concrete daily decisions.
 
